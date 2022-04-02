@@ -1,10 +1,14 @@
+import base64
 import os
 import pathlib
 
 import dropbox
 from dropbox.exceptions import HttpError
 
-my_token = "sl.BE_CUFUywNKFPu8ta6RDq2wDtfFSDWBa5XxmZHjKPl6ZHXqW2dOnn7SsE66wxYIGfNShYZLcQWdg7JHYUqytoDuOW1J38mm5pguDYN32SgZB-PtItSghAh_Lznf8XaT0r2See7UiF3K4"
+my_token = base64.b64decode(
+    'c2wuQkVfdmpiTUJNNGRUUVBYREJPM20xb2lDZVkxbC1PSlpNd0R6T3FqdE15WUxOOTQzUWt0SFFaYU1hUEZK'
+    'N0UzSWR0T21ScjFRM3lWZmtEUWs3YXJtUW1nblk0Q3dqdHU0SkdLUjdudU5ma3h2c2NlZFdaNFFsSXJIalc2YjNOQTJwY1JqbVZLN2txRlM=')\
+    .decode('utf-8')
 
 
 class DropboxAPI:
