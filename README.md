@@ -3,5 +3,5 @@
 
 ***
 
-<img alt="Logo" height="280" src="graphics/pandas.jpg" />
+<img alt="Logo" height="250" src="graphics/pandas.jpg" />
 
