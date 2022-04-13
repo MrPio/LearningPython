@@ -7,4 +7,4 @@
 
 ***
 
-<img alt="Logo" height="250" src="graphics/first_ui.jpg" />
+<img alt="Logo" src="graphics/first_ui.jpg" />
