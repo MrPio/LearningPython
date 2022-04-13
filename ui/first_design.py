@@ -514,7 +514,7 @@ class Ui_MainWindow(object):
 "")
         self.centralwidget = QtWidgets.QWidget(MainWindow)
         self.centralwidget.setObjectName("centralwidget")
-        self.horizontalLayoutWidget = QtWidgets.QWidget(self.centralwidget)
+        self.horizontalLayoutWidget = QtWidgets.QWidget(self.centralwidge   t)
         self.horizontalLayoutWidget.setGeometry(QtCore.QRect(51, 110, 351, 71))
         self.horizontalLayoutWidget.setObjectName("horizontalLayoutWidget")
         self.horizontalLayout = QtWidgets.QHBoxLayout(self.horizontalLayoutWidget)
