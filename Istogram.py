@@ -13,11 +13,6 @@ for line in lines:
 
 df=pd.DataFrame({'val':values},index=range(len(values)))
 
-# df = pd.DataFrame({'val': [10, 20, 30, 40, 50, 60, 70, 80, 90], 'sex': list("MFMFFFMMM")},
-#                   index=['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i'])
-# df.plot.pie(y="val")
-# df.hist(column=["val"])
-# df.plot.line(column=["val"])
 df.plot.kde(bw_method=0.2)
 plt.show()
 with open('df_001', 'wb') as f:
