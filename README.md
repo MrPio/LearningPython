@@ -1,4 +1,9 @@
 # LearningPython
+
+<video src='RisolutoreMatricole.mp4' width=180/>
+
+***
+
 <img alt="Logo" height="480" src="graphics/code_001.jpg" />
 
 ***
