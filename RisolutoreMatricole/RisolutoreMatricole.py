@@ -30,7 +30,7 @@ def getNome(strings, index, left_list):
 
 
 matricole = []
-with open('values.txt') as f:
+with open('../StatisticsPandas/values.txt') as f:
     for line in f.readlines():
         matricole.append(line.split(" -->")[0])
 
